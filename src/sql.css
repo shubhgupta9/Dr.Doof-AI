@@ -1,0 +1,118 @@
+body {
+  /* background-image: url("./giphy\ \(3\).gif"); */
+  background-image: url('./adrien-olichon-ilVYjf0J378-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* width: 100vw; */
+  height: 100vh;
+  background-size: cover;
+}
+
+/* .scrolll {
+  overflow: scroll;
+} */
+
+.OutputBoxPositions {
+  position: absolute;
+  right: 25px;
+  top: 200px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.SQLBoxPositions {
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#Headerstyle {
+  background-color: #201f1f;
+}
+
+#footer {
+  background-color: #201f1f;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.textColor {
+  color: #ffffff;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: -2px -10px;
+  font-size: 10px;
+  /* min-width: 400px; */
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.content-table th,
+.content-table td {
+  padding: 4px 6px;
+}
+
+.content-table td {
+  text-align: center;
+}
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #3f3a3a;
+}
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.textSize {
+  font-size: 500px;
+}
+
+.fontc {
+  font-family: 'Monoton', cursive;
+}
+
+*::-webkit-scrollbar {
+  width: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+.button-position {
+  left: 20;
+}

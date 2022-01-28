@@ -1,0 +1,11 @@
+/* body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("../src/jeremy-bishop-G9i_plbfDgk-unsplash.jpg");
+} */
+
+.headerPosition {
+  top: 50px;
+}

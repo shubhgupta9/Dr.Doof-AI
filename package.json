@@ -1,0 +1,66 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@mui/material": "^5.2.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "framer-motion": "^4.1.17",
+    "highcharts": "^9.3.2",
+    "highcharts-react-official": "^3.1.0",
+    "material-ui": "^0.20.2",
+    "mui": "0.0.1",
+    "mui-image": "^1.0.0",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.4.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "4.0.3",
+    "react-scrollable-feed": "^1.3.1",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^6.8.4",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "npm run watch:css && react-scripts start",
+    "build": "npm run watch:css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "watch:css": "postcss src/app.css -o src/styles.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.17"
+  },
+  "description": "",
+  "main": ".prettierrc.js",
+  "author": "",
+  "license": "ISC"
+}
